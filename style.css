@@ -45,6 +45,14 @@ main section ul li, a{
     font-weight: bold;
 }
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #111;
+    text-decoration: underline;
+}
+
 footer{
     background-color: #111;
     color: whitesmoke;
