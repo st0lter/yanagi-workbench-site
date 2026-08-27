@@ -2,19 +2,21 @@
 
 
 body{
+    margin: 0px;
     background-color: #DAA49A;
 }
 
-header, main{
+main{
     margin: 0px auto;
 }
 
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: whitesmoke;
     padding: 12px;
     font-family: "Noto Sans JP", Verdana, sans-serif;
@@ -22,22 +24,24 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     height: 180px;
-    border-radius: 12px;
 }
-header h1{
+div#title h1{
     color: #9C0D38;
+    text-shadow: 2px 2px 4px #111;
 }
-header p{
+div#title p{
     color: whitesmoke;
+    text-shadow: 2px 2px 4px #111;
 }
 
 main section{
     font-family: "Montserrat", Verdana, sans-serif;
-    margin-top: 5px;
+    margin: 12px;
     padding: 10px;
     border: 2px solid #111;
     background-color: whitesmoke;
     border-radius: 12px;
+    box-shadow: 2px 2px 4px #111;
 }
 main section ul li, a{
     color: #9C0D38;
@@ -56,6 +60,6 @@ footer{
     background-color: #111;
     color: whitesmoke;
     padding: 10px;
-    margin-top: 5px;
+    margin: 12px;
     border-radius: 12px;
 }
