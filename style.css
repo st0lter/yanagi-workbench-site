@@ -55,7 +55,11 @@ a:hover{
     color: #111;
     text-decoration: underline;
 }
-
+a#title:hover{
+    color: #80082c;
+    text-shadow: 2px 2px 4px #111;
+    text-decoration: none;
+}
 footer{
     background-color: #111;
     color: whitesmoke;
